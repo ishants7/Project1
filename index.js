@@ -22,7 +22,7 @@ if (req.url === "/about") {
        return res.end("<h1>CONTACT Page</h1>");
     }
     if (req.url === "/service") {
-     return  res.end("<h1>THIS IS SERVICE PAGE</h1>");
+     return  res.end("<h1>SERVICE PAGE</h1>");
     }
    else{
        return res.end("<h1>404 PAGE NHI MILA</h1>");
